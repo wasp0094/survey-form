@@ -1,0 +1,79 @@
+body {
+    background-color: turquoise;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ), url("https://www.smartsurvey.co.uk/wp-content/uploads/2020/09/pressing-keys-on-keyboard-with-smiley-faces.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3%;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+#survey-form {
+    position: relative;
+    background-color: rgba(95, 50, 95, 0.6) ;
+    text-align: left;
+    width: 50%;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 18%;
+    padding: 5%;
+    color: rgb(248, 248, 222);
+}
+input[type="text"] {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.7rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+input[type="number"] {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.7rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+select {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.7rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+#recc, #improve, #suggestions {
+    display: inline-block;
+    margin-bottom: 7px;
+}
+input[type="radio"] {
+    margin:7px 0; 
+}
+input[type="checkbox"] {
+    margin:7px 0; 
+    transform: scale(1.5);
+}
+textarea {
+    border-radius: 5px;
+    width: 100%;
+}
+button {
+    border-radius: 5px;
+    margin-top: 4%;
+    padding: 0.6rem;
+    width: 100%;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
